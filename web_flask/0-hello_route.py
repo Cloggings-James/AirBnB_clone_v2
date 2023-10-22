@@ -11,4 +11,6 @@ def display_hello():
 
 
 if __name__ == '__main__':
+    #Start the Flast development server
+    #Listen on all network available interfaces
     app.run(host='0.0.0.0', port=5000)
